@@ -134,3 +134,70 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Spring Boot specific files
+*.war
+*.jar
+
+# Environment and security files
+.env
+*.key
+*.pem
+*.crt
+*.pfx
+*.jks
+*.p12
+*.der
+
+# IDE and build tools
+/.classpath
+/.project
+/.settings/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Docker
+docker-compose.override.yml
+
+# Database files
+*.h2.db
+*.mv.db
+*.sqlite
+
+# Test reports and coverage
+/target/surefire-reports/
+/target/failsafe-reports/
+/coverage/
+jacoco.exec
